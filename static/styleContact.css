@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Satisfy&display=swap');
+
+.container{
+    min-height: 80vh;
+    margin: 7px 0px;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 3px;
+    font-family: 'Satisfy', cursive;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.myInput{
+    width: 30%;
+    padding: 7px;
+    margin: 7px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    outline: none;
+}
+
+.btn{
+    padding: 7px;
+    margin: 7px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    font-family: 'Satisfy', cursive;
+    outline: none;
+    background-color: rgba(10, 9, 9, 0.548);
+    color: rgb(162, 253, 226);
+}

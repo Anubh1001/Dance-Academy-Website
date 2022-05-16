@@ -1,0 +1,52 @@
+extends base.pug
+
+block scripts
+    //- script(src="/static/index.js")
+    script 
+        include ../static/index.js
+
+block style
+    style
+      include ../static/style.css
+
+block content
+
+    section#introSection 
+        div.big Welcome to Anubh's Dance Academy
+        div.small Rock On the Floor 
+
+    section#missionSection 
+        h2 Our Missions 
+        div.card
+            h3 Dance With Perfection 
+            div.card-box
+                div.card-img
+                    img(src="/static/img/hiphop.png")
+                div.card-text    
+                    p This is the best package for mastering in the dance. It will cost only $200.
+        div.card
+            h3 Dance The Way You Like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/girl2.jpg")
+                div.card-text    
+                    p This is the package for learning dance in a very easy way. It will cost only $100.
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/couple2.jpg")
+                div.card-text    
+                    p This is the package for the expert dance guidance. It will cost only $150.
+
+    section#sponsersSection 
+        h2 Our Sponsers
+        div.sponsers
+            div#s1
+                img(src="/static/img/Apple.png" alt="Sponser Image" class="sponser")     
+            div#s2
+                img(src="/static/img/Google.jpg" alt="Sponser Image" class="sponser")
+            div#s3
+                img(src="/static/img/microsoft2.jpg" alt="Sponser Image" class="sponser")
+            div#s4
+                img(src="/static/img/hp.png" alt="Sponser Image" class="sponser")    

@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Anubh Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar 
+        ul 
+            div#logo 
+                img(src="/static/img/moonwalk.png")
+                | ADA   
+                //- Anubh's Dance Academy
+            li #[a(href="/") Home ]
+            li #[a(href="/") About Us ]
+            li #[a(href="/") Services ]
+            li #[a(href="/") Class Info ]
+            li #[a(href="/contact") Contact Us]
+    block content
+    footer#footer 
+        | Copyright © 2022  AnubhDanceAcademy.com   |   All rights reserved
